@@ -1,0 +1,4 @@
+Sudoku string format:
+The sudoku string, which represents any sudoku field, is in the following format. It can be understood by the SudokuSymbol-class and contains no commas or similar characters which would prevent multiple strings from being stored in a csv file. The '&' and '%' signs are interpreted as a new cell or new row respectively. After the '_', there can be additional numbers to allow notes, with each number having their own leading '_'. This separation is needed to ensure compatibility with numbers with multiple digits.
+
+"5&3&0_1_2_3&0_4_5_6&7&0_7_8_9&0&0&0%6&0&0&1&9&5&0&0&0%0&9&8&0&0&0&0&6&0%8&0&0&0&6&0&0&0&3%4&0&0&8&0&3&0&0&1%7&0&0&0&2&0&0&0&6%0&6&0&0&0&0&2&8&0%0&0&0&4&1&9&0&0&5%0&0&0&0&8&0&0&7&9"
