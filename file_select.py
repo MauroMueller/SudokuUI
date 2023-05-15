@@ -1,7 +1,5 @@
-import easygui as g
-
-
 def select_file(title: str = "test") -> str:
+    import easygui as g
     return g.fileopenbox(title)
 
 
